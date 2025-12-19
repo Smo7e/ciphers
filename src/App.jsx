@@ -7,6 +7,7 @@ import StreamCipher from "./components/StreamCipher.jsx";
 import ElgamalSignature from "./components/ElgamalSignature.jsx";
 
 function App() {
+    console.log("test");
     const [currentComponent, setCurrentComponent] = useState("Component5");
 
     const components = {
